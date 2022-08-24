@@ -26,41 +26,41 @@ for x in range (0,x):
     op = int(input('Qual opção ?'))
     if op == 0:
         d = v * 90 / 100
-        print('A vista no dinheiro ou débito o valor fica R$ {:.0f}'.format(d))
+        print('A vista no dinheiro ou débito o valor fica R$ {:.2f}'.format(d))
     elif op == 1:
         d = v * 95 / 100
-        print('A vista no cartão de crédito fica R$ {:.0f}'.format(d))
+        print('A vista no cartão de crédito fica R$ {:.2f}'.format(d))
     elif op == 2:
         pa = v / 2
-        print('O valor parcelado não sofrerá acréscimo ficou R$ {:.0f}'.format(pa))
+        print('O valor parcelado não sofrerá acréscimo ficou R$ {:.2f}'.format(pa))
     elif op == 3:
         ac = v / 115 * 100
         pa = ac / 3
-        print('O valor parcelado sofrerá um acréscimo de 15% e ficou R$ {:.0f} '.format(pa))
+        print('O valor parcelado sofrerá um acréscimo de 15% e ficou R$ {:.2f} '.format(pa))
     elif op == 4:
         ac = v * 115 / 100
         pa = ac / 4
-        print('O valor parcelado terá um acréscimo de 15% e ficará no valor de R$ {:.0f}'.format(pa))
+        print('O valor parcelado terá um acréscimo de 15% e ficará no valor de R$ {:.2f}'.format(pa))
     elif op == 5 and v >= 1500.00:
         ac = v * 120 / 100
         pa = ac / 5
-        print('Valor parcelado em 5x com acréscimo de 20% no valor de R$ {:.0f}'.format(pa))
+        print('Valor parcelado em 5x com acréscimo de 20% no valor de R$ {:.2f}'.format(pa))
     elif op == 6:
         ac = v * 120 / 100
         pa = ac / 6
-        print('Valor parcelado em 6x com acréscimo de 20% no valor de R$ {:.0f}'.format(pa))
+        print('Valor parcelado em 6x com acréscimo de 20% no valor de R$ {:.2f}'.format(pa))
     elif op == 7 and v >= 3000.00:
         ac = v * 125 / 100
         pa = ac / 7
-        print('Valor parcelado em 7x com acréscimo de 25% no valor de R$ {:.0f}'.format(pa))
+        print('Valor parcelado em 7x com acréscimo de 25% no valor de R$ {:.2f}'.format(pa))
     elif op == 8:
         ac = v * 125 / 100
         pa = ac / 8
-        print('Valor parcelado em 8x com acréscimo de 25% no valor de R$ {:.0ff}'.format(pa))
+        print('Valor parcelado em 8x com acréscimo de 25% no valor de R$ {:.2f}'.format(pa))
     elif op == 9:
         ac = v * 130 / 100
         pa = ac / 9
-        print('Valor parcelado em 9x com acréscimo de 30% no valor de R$ {:.0f}'.format(pa))
+        print('Valor parcelado em 9x com acréscimo de 30% no valor de R$ {:.2f}'.format(pa))
     elif op == 10 and v >= 5500.00:
         ac = v * 130 / 100
         pa = ac / 10
