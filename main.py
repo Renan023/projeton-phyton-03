@@ -38,14 +38,14 @@ for x in range (0,x):#ciclo de repetição determinada em quantos ciclos de repe
     elif op == 10 and d['Valor'] >= 5500.00:porcentagem.acrescimoparcelado(d['Valor'], 145, 100, 10)
     else:
         print('Opção Inoperante')
-        time.sleep(0.5)
+    l.append(d.copy())
+    d.clear()
+    time.sleep(0.5)
     print('Processando....')
 print('Obrigado pela sua visita em nossa loja. Tenha um ótimo dia s2')
 print('Aguardamos sua próxima visita a nossa loja ')
 print('Próximo cadastro....')
 print('='*50)
 time.sleep(0.5)
-l.append(d.copy())
-d.clear()
 print(l)
 
