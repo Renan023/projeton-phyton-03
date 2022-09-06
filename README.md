@@ -5,4 +5,7 @@ repetição for com entrada de dados alterando o valor de repetição, cálculo 
 inclusão do while para validação de sexo , importação da biblioteca datetime 
 
 03/09/2022
-utilização do dicionário para guardar dados e depois copiado em lista, def definidos para desconto e acréscimos parcelados  
+utilização do dicionário para guardar dados e depois copiado em lista, def definidos para desconto e acréscimos parcelados 
+
+06/09/2022
+incluido pacote de porcentagem para os dados de porcentagem nas def de desconto e acréscimo
