@@ -10,3 +10,6 @@ Utilização do dicionário para guardar dados e depois copiado em lista, def de
 06/09/2022-
 Incluido pacote de porcentagem para os dados de porcentagem nas def de desconto e acréscimo,
 Resolvido o problema para geração de listas, a partir dos dados copiados do dicionário 
+
+07/09/2022-
+Adicionado modularização e exceção de erro nas entradas de dados 
